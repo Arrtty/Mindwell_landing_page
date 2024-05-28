@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page de MindWell</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        
+        header {
+            background-color: rgb(159, 200, 250);
+            padding: 40px 0;
+            margin-bottom: 20px;
+            text-align: center;
+            max-height: 400px;
+        }
+        
+        header .logo {
+            display: block;
+            margin: 0 auto;
+            max-width: 350px;
+        }
+        
+        header .logo-top-left {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            max-width: 200px;
+        }
+        
+        header h1 {
+            margin-top: 20px;
+        }
+        
+        header h1 {
+            margin-top: 20px;
+        }
+        
+        #about {
+            background-color: #fff;
+            padding: 60px 0;
+        }
+        
+        .about-text {
+            width: 48%;
+            float: left;
+            text-align: justify;
+        }
+        
+        .vision-mission {
+            width: 48%;
+            float: right;
+            text-align: justify;
+        }
+        
+        #features {
+            background-color: #f2f2f2;
+            padding: 60px 0;
+        }
+        
+        ul {
+            list-style-type: none;
+        }
+        
+        ul li {
+            margin-bottom: 10px;
+        }
+        
+        #join {
+            padding: 60px 0;
+            background-color: #fff;
+            text-align: center;
+        }
+        #plans {
+            background-color: #fff;
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .plans {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 40px;
+        }
+
+        .plan {
+            flex: 0 1 calc(33.33% - 20px);
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .plan h3 {
+            color: #007bff;
+        }
+
+        .plan ul {
+            padding: 0;
+            text-align: center;
+            text-size-adjust: true;
+        }
+
+        .plan ul li {
+            margin-bottom: 10px;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: rgb(0, 97, 162);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        
+        .btn:hover {
+            background-color: rgb(0, 97, 162);
+        }
+        
+        footer {
+            background-color: rgb(0, 97, 162);
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+        footer a {
+            color: #fff;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <img src="MindWellComplete.png" alt="MINDWELL" class="logo">
+        <img src="mindwell_health.png" alt="Icono de la Aplicación" class="logo-top-left">
+        <h1>Bienvenido/a a Mindwell</h1>
+        <p>Salud mental en la palma de tu mano</p>
+    </div>
+</header>
+
+<section id="about">
+    <div class="container">
+        <div class="about-text">
+            <h2>¿Qué es Mindwell?</h2>
+            <p>MindWell” es una aplicación la cual permite el acceso a atención psicológica a las persona que lo necesiten en cualquier momento, mediante el uso de un chat que funciona a través de inteligencia artificial, además de servir de puente entre profesionales de la salud y personas que requieran de atención personalizada y como otra alternativa, enlazar personas con necesidad de atención psicológica gratuita a instituciones gubernamentales especializadas en atención psicológica.</p>
+        </div>
+        <div class="vision-mission">
+            <h2>Nuestra Misión</h2>
+            <p>MindWell es una empresa dedicada a brindar atención psicológica oportuna, eficaz e integral a cualquier persona que lo necesite, mediante el uso de inteligencia artificial, comprometida a impulsarla accesibilidad de atención psicológica.</p>
+            <h2>Nuestra Visión</h2>
+            <p>Posicionarnos como una aplicación líder en temas de salud mental. Atendiendo las necesidades de las personas que busquen atención psicológica, siendo reconocidos a nivel nacional e internacional por ser una empresa.</p>
+        
+        </div>
+    </div>
+</section>
+
+<section id="features">
+    <div class="container">
+        <h2>¿Qué Ofrecemos?</h2>
+        <ul>
+            <li>Contacto con psicólogos profesionales</li>
+            <li>Chat de linea de ayuda, anonimo y gratuito</li>
+            <li>Contacto con organizaciones de salud mental</li>
+            <li>Tecnología de IA para ralizar tests en nuestro chat de ayuda</li>
+        </ul>
+    </div>
+</section>
+
+
+<section id="plans">
+    <div class="container">
+        <h2>Planes de Suscripción</h2>
+        <div class="plans">
+            <div class="plan">
+                <h3>Mnesual</h3>
+                <ul>
+                    <li>Chat ilimitado</li>
+                    <li>Guardar chats</li>
+                    <li>Descuentos en citas</li>
+                </ul>
+                <a href="#" class="btn">90$ MXN</a>
+            </div>
+            <div class="plan">
+                <h3>Semestral</h3>
+                <ul>
+                    <li>Mismos beneficios</li>
+                    <li>10% Menos por mes</li>
+                    
+                </ul>
+                <a href="#" class="btn">486$ MXN</a>
+            </div>
+            <div class="plan">
+                <h3>Anual</h3>
+                <ul>
+                    <li>Mismos beneficios</li>
+                    <li>Prioridad de chat con psicólogos</li>
+                    <li>20% de descuento mensual</li>
+                </ul>
+                <a href="#" class="btn">864$ MXN</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="join">
+    <div class="container">
+        <h2>Utiliza nuestro servicio, para tu salud mental</h2>
+        <a href="#" class="btn">Descarga nuestra app</a>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>¿Tienes Preguntas? <a href="#">Contáctanos</a></p>
+    </div>
+</footer>
+
+</body>
+</html>
